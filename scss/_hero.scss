@@ -1,0 +1,74 @@
+/* HERO SECTION STYLE START  */
+
+.hero {
+    padding-top: 37px;
+    background-color: var(--sc-color);
+
+}
+.hero__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 196px 0px 213px 0px;
+}
+.hero__content-wrapper {
+    width: 665px;
+}
+.hero__start-text {
+    font-family: 'Roboto', serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.41px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: var(--txt-color);
+}
+.hero__title {
+    font-size: 57.33px;
+    font-weight: 900;
+    line-height: 69.08px;
+    text-align: left;
+    color: var(--txt-color);
+    margin-top: 6px;
+}
+.hero__title--color {
+    color: var(--btn--color);
+}
+.hero__info {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;   
+    color: var(--txt-color);
+    opacity: 0.6; 
+    margin-top: 35px;
+}
+.hero__btn {
+    width: 165px;
+    height: 49px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--btn--color);
+    font-family: 'Hind Madurai', serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.08px;
+    text-align: left;
+    transition: all 0.3s;
+    margin-top: 50px;
+}
+.head__btn:hover {
+    background-color: white;
+    border-color: var(--btn--color);
+    color: var(--btn--color);
+    box-shadow: 0 0 4px 1px var(--btn--color);
+}
+.hero__img-wrapper {
+    position: absolute;
+    left: 436px;
+}

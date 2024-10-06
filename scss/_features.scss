@@ -1,0 +1,45 @@
+/* FEATURES SECTION STYLE START  */
+
+.features {
+    margin-top: 100px;
+}
+.features__cards-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 39px;
+}
+.card {
+    width: 250px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    padding: 33px 26px 27px 26px;
+    padding-bottom: 30px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.card:hover {
+    box-shadow: 20px 20px 50px 0px rgba(0, 0, 0, 0.1);
+    
+}
+.card__title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27.6px;
+    text-align: left;
+    color: var(--txt-color);
+    margin-top: 24.65px;
+}
+.card__info {
+    font-family: Hind Madurai;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.32px;
+    text-align: center;
+    color: var(--txt-color);
+    opacity: 0.6;
+    text-align: center;
+    margin-top: 20px;    
+}

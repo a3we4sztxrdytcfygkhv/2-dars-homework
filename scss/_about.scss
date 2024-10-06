@@ -1,0 +1,52 @@
+/* ABOUT SECTION STYLE START  */
+
+.about {
+    margin-top: 100px;
+    background-color: var(--sc-color);
+}
+.about__wrapper {
+    display: flex;
+    align-items: center;
+}
+.about__title {
+    font-size: 44.2px;
+    font-weight: 600;
+    line-height: 48.84px;
+    text-align: left;
+    color: var(--txt-color);
+}
+.about__info {
+    font-family: 'Roboto' , serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: var(--txt-color);
+    opacity: 0.6;
+    margin-top: 16px;
+}
+.about__btn {
+    margin-top: 35px;
+    width: 165px;
+    height: 49px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--btn--color);
+    font-family: 'Hind Madurai', serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.08px;
+    text-align: left;
+    transition: all 0.3s;
+    margin-top: 50px;
+}
+.about__btn:hover {
+    background-color: white;
+    border-color: var(--btn--color);
+    color: var(--btn--color);
+    box-shadow: 0 0 4px 1px var(--btn--color);
+}

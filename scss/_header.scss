@@ -1,0 +1,59 @@
+/* HEADER SECTION STYLE START  */
+
+.site-head {
+    padding-top: 10px;
+    background-color: var(--sc-color);
+}
+.container {
+    width: 1125px;
+    margin: 0 auto;
+}
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.head__logo-img {
+    width: 79px;
+    height: 79px;
+}
+.head__nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.head__nav a {
+    font-family: 'Roboto', serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 17.58px;
+    text-align: left;
+    color: var(--txt-color);
+    transition: color 0.3s;
+}
+.head__nav a:hover {
+    color: var(--btn--color);
+}
+.head__btn {
+    width: 165px;
+    height: 49px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--btn--color);
+    font-family: 'Hind Madurai', serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.08px;
+    text-align: left;
+    transition: all 0.3s;
+}
+.head__btn:hover {
+    background-color: white;
+    border-color: var(--btn--color);
+    color: var(--btn--color);
+    box-shadow: 0 0 4px 1px var(--btn--color);
+}
